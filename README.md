@@ -1,4 +1,6 @@
-# [HyperApp](https://github.com/hyperapp/hyperapp) Boilerplate Repo
+[![Build Status](https://travis-ci.org/selfup/hyperapp-one.svg?branch=master)](https://travis-ci.org/selfup/hyperapp-one)
+
+# [HyperApp](https://github.com/hyperapp/hyperapp) JSX Boilerplate Repo
 
 *With JSX*
 
@@ -32,7 +34,7 @@ Then work as normal and don't forget to add the new remote before pushing up!
 
 ### Deploy to GitHub Pages:
 
-First Time:
+**First Time**:
 
 ```bash
 git checkout -b gh-pages
@@ -41,7 +43,7 @@ git add . && git commit -m "built"
 git push origin gh-pages
 ```
 
-Every time after that:
+**Every time after that**:
 
 ```bash
 git checkout gh-pages
@@ -51,12 +53,12 @@ git add . && git commit -m "built"
 git push origin gh-pages
 ```
 
-Now go visit:
+**Now go visit**:
 
 (No custom domain) -> `<your_username>.github.io/<your_repo_name>`
 
 (Custom domain) -> `<custom_domain>/<your_repo_name>`
 
-### GIF:
+### Example GIF:
 
 ![basic gif of app](https://cloud.githubusercontent.com/assets/9837366/22784577/cdcf4c84-ee8d-11e6-98ca-89fe3b387cf1.gif)

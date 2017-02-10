@@ -7,11 +7,10 @@ const plugins = [
     filename: './bundle.css',
     allChunks: true,
   }),
+  new BabiliPlugin(),
 ];
 
-module.exports = function webpackStuff(env) {
-  if (env && env.minify) plugins.push(new BabiliPlugin());
-
+module.exports = function webpackStuff() {
   return {
     entry: [
       './src/index.js',
